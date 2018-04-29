@@ -47,4 +47,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, LogInRegister.class);
         startActivity(intent);
     }
+
+    public void buttonStockAlcohol(View view) {
+        Intent intent = new Intent(this, stockAlcohol.class);
+        startActivity(intent);
+    }
 }
